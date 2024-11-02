@@ -1,5 +1,5 @@
 import './App.css';
-import Die from "./Die";
+import Die from "./Die.js";
 
 function App() {
   return (

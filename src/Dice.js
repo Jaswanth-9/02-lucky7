@@ -1,4 +1,4 @@
-import Die from "./Die";
+import Die from "./Die"
 import "./Dice.css";
 
 export default function Dice( {dice} ){
@@ -6,7 +6,7 @@ export default function Dice( {dice} ){
         <div className = "Dice">
             {
                 dice.map((v,i) => (
-                    <Die key={i} var={v} />
+                    <Die val={v} key={i} />
                 ))
             }
         </div>

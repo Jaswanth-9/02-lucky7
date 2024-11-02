@@ -1,10 +1,10 @@
 import './App.css';
-import Die from "./Die.js";
+import Dice from "./Dice"
 
 function App() {
   return (
     <div className="App">
-      <Die val = {2}/>
+      <Dice  dice = {[4,8,3]}/>
     </div>
   );
 }

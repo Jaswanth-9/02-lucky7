@@ -4,7 +4,7 @@ import LuckyN from './LuckyN';
 function App() {
   return (
     <div className="App">
-      <LuckyN/>
+      <LuckyN />
     </div>
   );
 }

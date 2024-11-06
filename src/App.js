@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <LuckyN />
+      <LuckyN numDice={3} goal={13}/>
     </div>
   );
 }
